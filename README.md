@@ -7,9 +7,9 @@ This fortran script lists all non-zero Wigner's 3-j symbols up to a maximum orde
 ```
 
 Rules for 3j symbols to be different from 0 are:  
-    -j1, j2 and j3 are natural integers
-    -sum rules : m1+m2+m3/=0 ,
-    -triangle rule: abs(j1-j2)<=j3<=j1+j2
+    - j1, j2 and j3 are natural integers,  
+    - sum rules : m1+m2+m3/=0,  
+    - triangle rule: abs(j1-j2)<=j3<=j1+j2.  
     
 We define the maximum order (asked to user as standard input) by the maximum value allowed for j1 and j2.
 
