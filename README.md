@@ -7,7 +7,7 @@ This program lists all non-zero [Wigner's 3-j symbols](http://en.wikipedia.org/w
 ```
 
 Rules for 3j symbols to be different from 0 are:  
-    * j1, j2 and j3 are natural integers,  
+    * j1, j2 and j3 are natural numbers,  
     * sum rules : m1+m2+m3/=0,  
     * triangle rule: abs(j1-j2)<=j3<=j1+j2.  
     
