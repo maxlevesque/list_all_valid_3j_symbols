@@ -13,11 +13,10 @@ Rules for 3j symbols to be different from 0 are:
     
 We define the maximum order (asked to user as standard input) by the maximum value allowed for j1 and j2.
 
-### References
+#### References
 
 * Gray and Gubbins, Theory of Molecular Fluids: I: Fundamentals, Oxford University Press (2011)
 
-### Non-zero 3-j symbols for low orders 
 
     
 Non-zero 3-j symbols are here given in the form ( j1 j2 j3, m1 m2 m3 ).
