@@ -1,7 +1,10 @@
-This fortran script lists all non-zero Wigner's 3j symbols up to a maximum order given by the user  
+This fortran script lists all non-zero Wigner's 3-j symbols up to a maximum order given by the user  
 
-3j symbols are in the form (j1 j2 j3)
-                           (m1 m2 m3)
+3-j symbols are traditionnaly noted 
+```
+(j1 j2 j3)  
+(m1 m2 m3)
+```
 
 Rules for 3j symbols to be different from 0 are:  
     -j1, j2 and j3 are natural integers
@@ -11,7 +14,7 @@ Rules for 3j symbols to be different from 0 are:
 We define the maximum order (asked to user as standard input) by the maximum value allowed for j1 and j2.
 
     
-Non-zero 3-j symbols are given in the form ( j1 j2 j3, m1 m2 m3 ).
+Non-zero 3-j symbols are here given in the form ( j1 j2 j3, m1 m2 m3 ).
 
 #### Non-zero 3-j symbols up to order 0
 ```
