@@ -18,6 +18,7 @@ We define the maximum order (asked to user as standard input) by the maximum val
 #### References
 
 * Gray and Gubbins, Theory of Molecular Fluids: I: Fundamentals, Oxford University Press (2011)
+* [Wolfram functions documentation](http://functions.wolfram.com/HypergeometricFunctions/ThreeJSymbol/)
 
 
     
