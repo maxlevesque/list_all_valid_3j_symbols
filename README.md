@@ -1,4 +1,4 @@
-This program lists all non-zero [Wigner's 3-j symbols](http://en.wikipedia.org/wiki/Wigner_3-j_symbols) up to a maximum order given by the user  
+This program lists all valid [Wigner's 3-j symbols](http://en.wikipedia.org/wiki/Wigner_3-j_symbols) up to a maximum order given by the user.
 
 3-j symbols are traditionnaly noted 
 ```
@@ -9,7 +9,9 @@ This program lists all non-zero [Wigner's 3-j symbols](http://en.wikipedia.org/w
 Rules for 3j symbols to be different from 0 are:  
     * j1, j2 and j3 are natural numbers,  
     * sum rules : m1+m2+m3/=0,  
-    * triangle rule: abs(j1-j2)<=j3<=j1+j2.  
+    * triangle rule: abs(j1-j2)<=j3<=j1+j2.
+
+Valid 3j symbols may be equal to 0.
     
 We define the maximum order (asked to user as standard input) by the maximum value allowed for j1 and j2.
 
@@ -19,14 +21,14 @@ We define the maximum order (asked to user as standard input) by the maximum val
 
 
     
-Non-zero 3-j symbols are here given in the form ( j1 j2 j3, m1 m2 m3 ).
+Valid 3-j symbols are here given in the form ( j1 j2 j3, m1 m2 m3 ).
 
-#### Non-zero 3-j symbols up to order 0
+#### Valid 3-j symbols up to order 0
 ```
 (  0  0  0,  0  0  0)
 ```
 
-#### Non-zero 3-j symbols up to order 1
+#### Valid 3-j symbols up to order 1
 ```
 (  0  0  0,  0  0  0) 
                       
@@ -61,7 +63,7 @@ Non-zero 3-j symbols are here given in the form ( j1 j2 j3, m1 m2 m3 ).
 (  1  1  2,  1  1 -2) 
 ```
 
-#### Non-zero 3-j symbols up to order 2
+#### Valid 3-j symbols up to order 2
 ```
 (  0  0  0,  0  0  0)
 
@@ -277,7 +279,7 @@ Non-zero 3-j symbols are here given in the form ( j1 j2 j3, m1 m2 m3 ).
 (  2  2  4,  2  1 -3)
 (  2  2  4,  2  2 -4)
 ```
-#### Non-zero 3-j symbols up to order 3
+#### Valid 3-j symbols up to order 3
 ```
 (  0  0  0,  0  0  0)
 
@@ -1143,7 +1145,7 @@ Non-zero 3-j symbols are here given in the form ( j1 j2 j3, m1 m2 m3 ).
 (  3  3  6,  3  2 -5)
 (  3  3  6,  3  3 -6)
 ```
-#### Non-zero 3-j symbols up to order 4
+#### Valid 3-j symbols up to order 4
 ```
 (  0  0  0,  0  0  0)
 
