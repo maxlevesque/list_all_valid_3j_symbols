@@ -1,4 +1,4 @@
-This program lists all valid [Wigner's 3-j symbols](http://en.wikipedia.org/wiki/Wigner_3-j_symbols) up to a maximum order given by the user.
+This program lists all physically realizable (valid) [Wigner's 3-j symbols](http://en.wikipedia.org/wiki/Wigner_3-j_symbols) up to a maximum order given by the user.
 
 3-j symbols are traditionnaly noted 
 ```
