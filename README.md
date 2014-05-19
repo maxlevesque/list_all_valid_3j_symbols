@@ -8,7 +8,7 @@ This program lists all valid [Wigner's 3-j symbols](http://en.wikipedia.org/wiki
 
 Rules for 3j symbols to be valid:  
     * j1, j2 and j3 are natural numbers,  
-    * sum rules : m1+m2+m3/=0,  
+    * sum rules : m1+m2+m3==0,  
     * triangle rule: abs(j1-j2)<=j3<=j1+j2.
 
 Valid 3j symbols may be equal to 0.
