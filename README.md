@@ -6,7 +6,7 @@ This program lists all valid [Wigner's 3-j symbols](http://en.wikipedia.org/wiki
 (m1 m2 m3)
 ```
 
-Rules for 3j symbols to be different from 0 are:  
+Rules for 3j symbols to be valid:  
     * j1, j2 and j3 are natural numbers,  
     * sum rules : m1+m2+m3/=0,  
     * triangle rule: abs(j1-j2)<=j3<=j1+j2.
