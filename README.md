@@ -1,10 +1,11 @@
-This program lists all physically realizable (valid) [Wigner's 3-j symbols](http://en.wikipedia.org/wiki/Wigner_3-j_symbols) up to a maximum order given by the user.
+This program lists all physically realizable (valid) [Wigner's 3-j symbols](http://en.wikipedia.org/wiki/Wigner_3-j_symbols) with integer arguments up to a maximum order given by the user.
 
 3-j symbols are traditionnaly noted 
 ```
 (j1 j2 j3)  
 (m1 m2 m3)
 ```
+with ji and mi integer arguments. In quantum mechanics, half-integers values exist. They are not considered here.
 
 Rules for 3j symbols to be valid:  
     * j1, j2 and j3 are natural numbers,  
